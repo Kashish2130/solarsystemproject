@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a container to hold the background and image */
+.container {
+    position: relative;
+}
+
+/* Define the background with opacity */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(204, 0, 0, 0.5); /* Replace with your desired background color and opacity */
+}
+
+/* Style the overlay image */
+.overlay-image {
+    position: relative;
+    z-index: 1; /* Make sure the image is on top of the background */
+    /* You can set width, height, and other styles for your image here */
+}
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Overlay Background Color with Image</title>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <img src="earth.png" alt="Your Image" class="overlay-image">
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(galaxy.gif);
+    zoom: 125%;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
+    font-weight: bolder;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(gray, black);
+}
+
+.inputboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#textbox {
+    height: 25px;
+    width: 215px;
+    text-align: center;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dropdownlist {
+    height: 30px;
+    width: 150px;
+    font-size: smaller;
+    text-align: center;
+    color: gray;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submitbutton {
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height:100%;
+    width:60%;
+    background-color: rgba(128, 128, 128, 0.4);
+    flex-wrap: wrap;
+}
+
+.planetInfo {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.planetimg img {
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.planetcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

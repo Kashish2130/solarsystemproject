@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SOLAR SYSTEM</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="heading">
+        <h1>Calculate a weight of an object on a planet</h1>
+    </div>
+
+    <div class="inputboxes">
+        <input type="number" placeholder="Mass in kilogram" id="textbox">
+        <select name="select planet" id="dropdownlist">
+            <option value="" disabled selected hidden>--select planet--</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="mars">Mars</option>
+            <option value="venus">Venus</option>
+            <option value="saturn">Saturn</option>
+            <option value="pluto">Pluto</option>
+            <option value="neptune">Neptune</option>
+            <option value="uranus">Uranus</option>
+            <option value="mercury">Mercury</option>
+            <option value="moon">Moon</option>
+        </select>
+        <input type="submit" value="Calculate Weight" id="submitbutton">
+    </div>
+
+    <div id="main">
+        <div class="planetInfo">
+            <div class="planetimg">
+                <img src="earth.png">
+            </div>
+            <div class="planetcontent">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
+
+
+<!-- Mercury: 0.38 times Earth's surface gravity
+Venus: 0.91 times Earth's surface gravity
+Mars: 0.38 times Earth's surface gravity
+Jupiter: 2.36 times Earth's surface gravity
+Saturn: 0.92 times Earth's surface gravity
+Uranus: 0.89 times Earth's surface gravity
+Neptune: 1.12 times Earth's surface gravity
+The Moon: 0.17 times Earth's surface gravity
+Pluto's surface gravity is approximately 0.06 times that of Earth's. -->
